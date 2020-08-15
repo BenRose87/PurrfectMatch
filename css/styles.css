@@ -172,7 +172,7 @@ p {
 @media (max-width: 1028px) {
 
   .container-fluid {
-    padding: 7% 7%;
+    padding: 7% 5%;
   }
 
   #title {
@@ -180,7 +180,7 @@ p {
   }
 
   #title .container-fluid {
-    padding: 3% 7% 7%;
+    padding: 3% 5% 7%;
   }
 
   .title-image {
