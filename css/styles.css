@@ -171,8 +171,16 @@ p {
 
 @media (max-width: 1028px) {
 
+  .container-fluid {
+    padding: 7% 7%;
+  }
+
   #title {
     text-align: center;
+  }
+
+  #title .container-fluid {
+    padding: 3% 7% 7%;
   }
 
   .title-image {
