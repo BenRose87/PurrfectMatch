@@ -1,38 +1,31 @@
 body {
   font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 900;
+  text-align: center;
 }
 
 p {
   color: #8f8f8f;
 }
 
-#title {
-  background-color: #4AA8B5;
-  color: white;
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
 }
 
+.section-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Containers */
+
 .container-fluid {
-  padding: 3% 15%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -61,22 +54,41 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title {
+  background-color: #4AA8B5;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title image */
 
 .title-image {
+  position: absolute;
+  right: 30%;
   transform: rotate(25deg);
   width: 60%;
 }
 
-/* Features */
+/* Features Section*/
 
 #features {
-  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .icon {
@@ -93,7 +105,12 @@ p {
 #testimonials {
   background-color: #7AC8D2;
   color: white;
-  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -102,19 +119,64 @@ p {
   width: 15%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section */
 
 #press {
   background-color: #7AC8D2;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
   margin: 20px 20px 50px;
   width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section*/
+
+#cta {
+  background-color: #4AA8B5;
+  color: white;
+}
+
+/* Footer Section*/
+
+#footer {
+  background-color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
