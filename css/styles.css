@@ -116,9 +116,16 @@ p {
 .carousel .carousel-inner{
   height: 600px;
 }
+
 .carousel-inner .carousel-item {
   min-height: 300px;
   object-fit: cover;
+}
+
+.carousel-item {
+  bottom: initial;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .testimonial-text {
