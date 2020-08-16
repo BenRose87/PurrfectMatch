@@ -182,11 +182,8 @@ p {
     padding: 7% 5%;
   }
 
-  #title {
-    text-align: center;
-  }
-
   #title .container-fluid {
+    text-align: center;
     padding: 3% 5% 7%;
   }
 
